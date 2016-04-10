@@ -95,7 +95,7 @@ public class DomainApplication extends IsisWicketApplication {
             final String aboutText = Joiner.on("\n").join(readLines);
             return aboutText;
         } catch (IOException e) {
-            return "This is a simple app";
+            return "This is a Isis app mia";
         }
     }
 
